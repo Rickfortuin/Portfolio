@@ -13,6 +13,7 @@ import TekeningenHeftafel from "../../Assets/HeftafelTekeningen.pdf";
 import Ontwerprapport from "../../Assets/Ontwerprapport-5.pdf";
 import tekenpakket from "../../Assets/TekenPakket-3.pdf";
 import projectMechatronica from "../../Assets/Project Mechatronica Eindrapport-1.pdf";
+import abs from "../../Assets/Projects/ABS.png";
 
 
 function Projects() {
@@ -51,7 +52,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Simrig}
+              imgPath={abs}
               isBlog={false}
               title="Aandrijfsystemen(besturingen samenhang)"
               description="Dit vak is onderverdeeld in 2 delen: besturingen, hierin wordt robotprogrammeren aansluitschema's en PLC besturingen behandeld. Het tweede deel is de samenhang, hierin wordt de kennis van besturingen toegepast tot een geïntegreerd systeem. Deze opdracht gaat over het berekenen en automatiseren van een bascule brug."
