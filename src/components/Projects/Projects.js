@@ -8,6 +8,12 @@ import ProjectMechatronica from "../../Assets/Projects/ProjectMechatronica.png";
 import RCauto from "../../Assets/Projects/RCauto.png";
 import heftafel from "../../Assets/Projects/Heftafel.png";
 import Simrig from "../../Assets/Projects/Simrig.png";
+import Eindrapport from "../../Assets/../Assets/Eindrapport.pdf";
+import TekeningenHeftafel from "../../Assets/HeftafelTekeningen.pdf";
+import Ontwerprapport from "../../Assets/Ontwerprapport-5.pdf";
+import tekenpakket from "../../Assets/TekenPakket-3.pdf";
+import projectMechatronica from "../../Assets/Project Mechatronica Eindrapport-1.pdf";
+
 
 function Projects() {
   return (
@@ -60,9 +66,10 @@ function Projects() {
               imgPath={Mech2}
               isBlog={false}
               title="Project Mechatronica en Constructief Ontwerpen (jaar 2)"
-              description="Tijdens dit project is er een prototype van een sorteermachine gemaakt die stekpotten sorteert op basis van het doorgegeven grootte. De gebruikte luchtcilinder mocht niet radiaal (op de y-as) belast worden en niet op basis van tijd of aantal stappen de positie bepalen. Dit project wordt aangestuurd door een Raspberry Pico door middel van MicroPython."
-              //ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="src\Assets\Ontwerprapport-5.pdf"
+              description="Tijdens dit project is er een prototype van een sorteermachine gemaakt die stekpotten sorteert op basis van de doorgegeven grootte. De gebruikte luchtcilinder mocht niet radiaal (op de y-as) belast worden en niet op basis van tijd of aantal stappen de positie bepalen. Dit project wordt aangestuurd door een Raspberry Pico door middel van MicroPython."
+              ghLink="https://github.com/Rickfortuin/Project-Mechatronica-en-Construcite"
+              demoLink={Ontwerprapport}
+              drawing={tekenpakket} //<--------Please include a demo link here
             />
           </Col>
 
@@ -73,8 +80,8 @@ function Projects() {
               title="Project Constructief Ontwerpen en Maintenance (Jaar 1)"
               description="Bij Project Constructief Ontwerpen en Maintenance is er een heftafel voor een fictieve klant ontwikkeld. Deze heftafel moest vervolgens op mechanische belastingen worden berekend. Hierbij was ik de projectleider en leidde ik onze groep tot een 8. "
               //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              demoLink="%PUBLIC_URL%/Eindrapport.pdf"
-              drawing= "./Assets/HeftafelTekeningen.pdf" //<--------Please include a demo link here
+              demoLink={Eindrapport} 
+              drawing= {TekeningenHeftafel} //<--------Please include a demo link here
             />
           </Col>
 
@@ -84,8 +91,8 @@ function Projects() {
               isBlog={false}
               title="Project Mechatronica (Jaar 1)"
               description="Bij Project Mechatronica maak je kennis met de eerste machinebouw van de opleiding, bij deze opdracht wordt een zonnepaneel gereinigd zonder vloeistof en handmatige acties. Deze machine werd geprogrammeerd in Python op een Metro M0 (Arduino microcontroller)."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-             demoLink="src\Assets\Project Mechatronica Eindrapport-1.pdf"     // <--------Please include a demo link here 
+              ghLink=""
+             demoLink= {projectMechatronica}   // <--------Please include a demo link here 
             />
           </Col>
         </Row>

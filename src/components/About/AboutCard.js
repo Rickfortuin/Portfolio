@@ -17,7 +17,7 @@ function AboutCard() {
             Tijdens mijn vrije tijd ben ik bezig met het leren van nieuwe vaardigheden zowel binnen als buiten het gebied van engineering daarbij werk ik meestal aan interessante projecten.
             <br />
             <br />
-            Los van mijn studie doe/volg ik ik:
+            Los van mijn studie doe/volg ik:
           </p>
           <ul>
             <li className="about-activity">
